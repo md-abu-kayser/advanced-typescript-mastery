@@ -178,7 +178,7 @@ I can implement any of these follow-ups on request.
 
 ### Contact and Maintainer
 
-- **Name:** Md Abu Kayser - Full-Stack Engineer
+- **Name:** Md Abu Kayser
 - **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Project:** **_advanced-typescript-mastery_**
