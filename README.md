@@ -64,7 +64,6 @@ There are two quick ways to preview the project locally: using Node/TypeScript t
 
 ```powershell
 npm i -g ts-node typescript
-
 ```
 
 ```
