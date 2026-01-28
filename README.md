@@ -68,7 +68,6 @@ npm i -g ts-node typescript
 
 ```
 npx ts-node 100-advanced-ts-problem.ts
-
 ```
 
 2. Compile to JavaScript and open `index.html` in the browser:
@@ -85,7 +84,6 @@ npx http-server -p 8080 -c-1
 
 ```
 git clone https://github.com/md-abu-kayser/advanced-typescript-mastery.git
-
 ```
 
 ## Running the Example
