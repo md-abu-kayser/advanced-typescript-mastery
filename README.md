@@ -187,6 +187,6 @@ For inquiries related to collaboration, interviews, or client work, feel free to
 ---
 
 **Thank you for reviewing this project!**  
-It is designed to be **clean, well-structured**, and **easy to evaluate** — ideal for technical interviews, portfolio reviews, and professional demonstrations.
+It is designed to be **clean, well-structured**, and **easy to evaluate** - ideal for technical interviews, portfolio reviews, and professional demonstrations.
 
 ---
