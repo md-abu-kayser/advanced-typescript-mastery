@@ -169,23 +169,24 @@ I can implement any of these follow-ups on request.
 ### License
 
 - This project is licensed under the terms of the **[MIT License](./LICENSE)**.
-- You may replace or update the license as needed for client or proprietary projects.
+- The license may be modified or replaced for client or proprietary projects if required.
 
 ---
 
-### Contact and Maintainer
+### Contact & Maintainer
 
-- **Name:** Md Abu Kayser
-- **Project:** _Advanced Typescript Mastery_
-- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
-- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
-- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+**Md Abu Kayser**  
+Frontend / Full-Stack Web Developer
 
-If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+- **Project:** Advanced TypeScript Mastery
+- **GitHub:** https://github.com/md-abu-kayser
+- **Email:** abu.kayser.official@gmail.com
+
+For inquiries related to collaboration, interviews, or client work, feel free to reach out via email or GitHub.
 
 ---
 
 **Thank you for reviewing this project!**  
-It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for interviews, portfolio showcases, or professional demos.
+It is designed to be **clean, well-structured**, and **easy to evaluate** — ideal for technical interviews, portfolio reviews, and professional demonstrations.
 
 ---
