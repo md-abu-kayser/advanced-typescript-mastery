@@ -130,7 +130,7 @@ npm i -D typescript ts-node @types/node
 }
 ```
 
-These scripts standardize common tasks and make the repo friendlier to evaluators.
+**These scripts standardize common tasks and make the repo friendlier to evaluators.**
 
 ## Testing and Validation
 
@@ -176,7 +176,7 @@ I can implement any of these follow-ups on request.
 ### Contact and Maintainer
 
 - **Name:** Md Abu Kayser
-- **Project:** **_Advanced Typescript Mastery_**
+- **Project:** _Advanced Typescript Mastery_
 - **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
