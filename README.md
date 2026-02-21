@@ -12,6 +12,12 @@
 [![PostCSS](https://img.shields.io/badge/PostCSS-efefef?logo=postcss&logoColor=black)](https://postcss.org/)
 [![daisyUI](https://img.shields.io/badge/daisyUI-5A0EF8?logo=tailwindcss&logoColor=white)](https://daisyui.com/)
 
+<!-- Fonts & Icons -->
+
+[![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?logo=google&logoColor=white)](https://fonts.google.com/)
+[![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?logo=fontawesome&logoColor=white)](https://fontawesome.com/)
+[![Heroicons](https://img.shields.io/badge/Heroicons-0EA5E9?logo=heroicons&logoColor=white)](https://heroicons.com/)
+
 <!-- Languages & Web Standards -->
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -25,6 +31,9 @@
 - Tailwind CSS docs: https://tailwindcss.com/docs/
 - PostCSS docs / postcss.config: https://postcss.org/ (see also Tailwind PostCSS install guide)
 - daisyUI docs: https://daisyui.com/
+- Google Fonts docs: https://fonts.google.com/
+- Font Awesome docs: https://fontawesome.com/
+- Heroicons docs: https://heroicons.com/
 - Node.js docs: https://nodejs.org/
 - Express docs: https://expressjs.com/
 - JavaScript (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript
