@@ -31,22 +31,6 @@
 [![ECMAScript Spec](https://img.shields.io/badge/ECMAScript-262-7A0BC0?logo=ecmascript&logoColor=white)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/docs/)
 
-## Plain docs links
-
-- HTML (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/HTML
-- CSS (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/CSS
-- Tailwind CSS docs: https://tailwindcss.com/docs/
-- PostCSS docs / postcss.config: https://postcss.org/ (see also Tailwind PostCSS install guide)
-- daisyUI docs: https://daisyui.com/
-- Google Fonts docs: https://fonts.google.com/
-- Font Awesome docs: https://fontawesome.com/
-- Heroicons docs: https://heroicons.com/
-- Node.js docs: https://nodejs.org/
-- Express docs: https://expressjs.com/
-- JavaScript (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-- ECMAScript (spec, ECMA-262) docs: https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
-- TypeScript docs: https://www.typescriptlang.org/docs/
-
 ---
 
 Professional, well-documented repository containing a focused TypeScript demonstration and exercise designed to showcase advanced TypeScript techniques, problem-solving skill, and clean project structure.
