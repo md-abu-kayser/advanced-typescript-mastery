@@ -1,225 +1,1142 @@
-# Advanced TypeScript Mastery - Focused Problem and Production-minded Solution
+# Advanced TypeScript Mastery
 
-<!-- MIT License -->
+<p align="center">
+  <strong>Advanced TypeScript Patterns • Problem Solving • Type-Safe Design • Production-Minded Code</strong>
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+<p align="center">
+  A focused TypeScript learning and demonstration repository built to explore
+  advanced type-system techniques, algorithmic reasoning, maintainable code,
+  and practical type-safe design.
+</p>
 
-<!-- Demo Live Link -->
+<p align="center">
+  <a href="https://github.com/md-abu-kayser/advanced-typescript-mastery">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+  </a>
+  <a href="https://md-abu-kayser.github.io/advanced-typescript-mastery/">
+    <img src="https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2EA44F?style=for-the-badge&logo=github" alt="Live Demo" />
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License" />
+  </a>
+  <img src="https://img.shields.io/badge/TypeScript-Advanced-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="Advanced TypeScript" />
+  <img src="https://img.shields.io/badge/Type%20Safety-First-3178C6?style=for-the-badge" alt="Type Safety First" />
+</p>
 
-[![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-brightgreen)](https://md-abu-kayser.github.io/advanced-typescript-mastery/)
-
-<!-- HTML & CSS -->
-
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-<!-- Styling / PostCSS -->
-
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/docs/)
-[![PostCSS](https://img.shields.io/badge/PostCSS-efefef?logo=postcss&logoColor=black)](https://postcss.org/)
-[![daisyUI](https://img.shields.io/badge/daisyUI-5A0EF8?logo=tailwindcss&logoColor=white)](https://daisyui.com/)
-
-<!-- Fonts & Icons -->
-
-[![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?logo=google&logoColor=white)](https://fonts.google.com/)
-[![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?logo=fontawesome&logoColor=white)](https://fontawesome.com/)
-[![Heroicons](https://img.shields.io/badge/Heroicons-0EA5E9?logo=heroicons&logoColor=white)](https://heroicons.com/)
-
-<!-- Languages & Web Standards -->
-
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![ECMAScript Spec](https://img.shields.io/badge/ECMAScript-262-7A0BC0?logo=ecmascript&logoColor=white)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/docs/)
-
----
-
-Professional, well-documented repository containing a focused TypeScript demonstration and exercise designed to showcase advanced TypeScript techniques, problem-solving skill, and clean project structure.
-
-> Clear, concise, and practical - ideal for technical interviews, portfolio showcases, or client demonstrations.
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#why-this-project">Why This Project</a> •
+  <a href="#what-it-demonstrates">What It Demonstrates</a> •
+  <a href="#architecture">Architecture</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#development-workflow">Development</a> •
+  <a href="#testing">Testing</a> •
+  <a href="#roadmap">Roadmap</a>
+</p>
 
 ---
 
-## Table of Contents
+## Overview
 
-- [About](#about)
-- [Highlights](#highlights)
-- [Repository Structure](#repository-structure)
-- [Prerequisites](#prerequisites)
-- [Quick Start](#quick-start)
-- [Running the Example](#running-the-example)
-- [How to Read the Code](#how-to-read-the-code)
-- [Recommended Development Workflow](#recommended-development-workflow)
-- [Testing and Validation](#testing--validation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact / Maintainer](#contact--maintainer)
+**Advanced TypeScript Mastery** is a focused TypeScript repository designed to demonstrate advanced type-system concepts, problem-solving techniques, and production-minded coding practices through a compact and reviewable implementation.
+
+Unlike a large application with many unrelated files, this repository intentionally keeps the core problem close to the surface so that a developer, hiring manager, interviewer, or reviewer can quickly inspect:
+
+- Type definitions
+- Generic abstractions
+- Function contracts
+- Algorithmic decisions
+- Type-safe APIs
+- Edge-case handling
+- Code organization
+- Readability
+- Maintainability
+
+The primary implementation currently lives in:
+
+```text
+100-advanced-ts-problem.ts
+```
+
+A minimal browser-facing runner is also included:
+
+```text
+index.html
+```
+
+The repository additionally provides a GitHub Pages demo for quick visual inspection.
 
 ---
 
-## About
+# Why This Project Exists
 
-This repository contains a single, focused TypeScript exercise and a minimal web runner. The goal is to demonstrate advanced TypeScript patterns, correctness, and readability in a compact, production-minded example.
+TypeScript becomes significantly more valuable when it is used to model **correctness**, not merely to annotate JavaScript.
 
-The project is deliberately small so reviewers can quickly inspect architecture, types, and algorithms while still seeing professional-level documentation and usage guidance.
+This project focuses on the idea that a strong TypeScript implementation should make invalid states harder to represent.
 
-## Highlights
+The learning cycle is:
 
-- Single-file advanced TypeScript problem: `100-advanced-ts-problem.ts` - contains the primary implementation and inline examples.
-- Minimal web runner: `index.html` - lets reviewers open the solution in a browser quickly.
-- Clean, intention-revealing types and comments suitable for code review or client presentation.
-
-## Repository Structure
-
-**Top-level files you will find:**
-
-- `100-advanced-ts-problem.ts` - The main TypeScript source showing the advanced problem and its solution.
-- `index.html` - Simple web page that can load a compiled JS bundle or demonstrate the output for quick manual inspection.
-- `README.md` - this file --> professional project overview and usage instructions.
-
-If you expand this repository into a fuller project, recommended additions include a `package.json`, a `tsconfig.json`, unit tests under a `tests/` folder, and CI configuration --> GitHub Actions.
-
-## Prerequisites
-
-**You only need one of these to run or preview the project locally:**
-
-- Node.js (LTS) with npm (recommended for a development workflow)
-- A TypeScript toolchain (tsc, ts-node, or esbuild) OR a modern browser for running built JS
-
-**Optional global utilities used in the examples below (you can also use npx):**
-
-- `http-server` (for quick local static hosting)
-
-## Quick Start
-
-There are two quick ways to preview the project locally: using Node/TypeScript tooling, or using a static file preview.
-
-1. **Using ts-node (one-shot execution of the TypeScript file):**
-
-```powershell
-npm i -g ts-node typescript
+```text
+Problem
+   ↓
+Model the domain
+   ↓
+Define type contracts
+   ↓
+Implement the solution
+   ↓
+Validate assumptions
+   ↓
+Handle edge cases
+   ↓
+Review readability
+   ↓
+Refine the design
 ```
 
+The goal is not simply:
+
+> “Make the code compile.”
+
+The goal is:
+
+> **Use the type system to communicate intent and prevent incorrect usage.**
+
+---
+
+# Project Goals
+
+The repository is built around several practical goals.
+
+## Advanced TypeScript
+
+Explore TypeScript beyond basic interfaces and primitive annotations.
+
+## Problem Solving
+
+Translate a problem statement into explicit types and predictable logic.
+
+## Production-Minded Design
+
+Prefer clear contracts, small responsibilities, and maintainable implementation decisions.
+
+## Reviewability
+
+Keep the project small enough that another engineer can understand the core solution quickly.
+
+## Extensibility
+
+Maintain a structure that can evolve from one focused example into a larger TypeScript mastery repository.
+
+---
+
+# What This Project Demonstrates
+
+The current project is intentionally compact, but its design emphasizes several engineering concepts.
+
+### Type Modeling
+
+Use explicit types to describe expected inputs, outputs, and internal states.
+
+### Function Contracts
+
+Functions should expose predictable signatures rather than relying on implicit behavior.
+
+### Encapsulation
+
+Keep implementation details behind small, understandable abstractions.
+
+### Readability
+
+Prefer intention-revealing names and straightforward control flow.
+
+### Algorithmic Thinking
+
+Solve the underlying problem deliberately instead of using unnecessary abstraction.
+
+### Maintainability
+
+Structure code so that future changes can be made without rewriting unrelated logic.
+
+---
+
+# Core Repository Concept
+
+The current repository follows a simple architecture:
+
+```text
+                     Advanced TypeScript Problem
+                                │
+                                ▼
+                     ┌─────────────────────┐
+                     │ Type Definitions    │
+                     └─────────┬───────────┘
+                               │
+                               ▼
+                     ┌─────────────────────┐
+                     │ Solution Logic      │
+                     └─────────┬───────────┘
+                               │
+                               ▼
+                     ┌─────────────────────┐
+                     │ Example / Runner    │
+                     └─────────┬───────────┘
+                               │
+                 ┌─────────────┴─────────────┐
+                 ▼                           ▼
+          Terminal Output              Browser Preview
 ```
-npx ts-node 100-advanced-ts-problem.ts
+
+---
+
+# Architecture
+
+Although this is intentionally a small project, the code follows useful boundaries.
+
+```text
+Problem Definition
+       ↓
+Type Contracts
+       ↓
+Implementation
+       ↓
+Example Harness
+       ↓
+Output
 ```
 
-2. Compile to JavaScript and open `index.html` in the browser:
+This keeps the educational example understandable while still encouraging professional design habits.
 
-```powershell
-npx tsc --init --rootDir . --outDir dist --esModuleInterop --resolveJsonModule --lib es2020,dom --target es2020
-npx tsc 100-advanced-ts-problem.ts --outDir dist
-npx http-server -p 8080 -c-1
+---
+
+# Repository Structure
+
+```text
+advanced-typescript-mastery/
+│
+├── 100-advanced-ts-problem.ts
+│   └── Main TypeScript problem and solution
+│
+├── index.html
+│   └── Minimal browser runner / preview
+│
+├── README.md
+│   └── Project documentation
+│
+├── LICENSE
+│   └── MIT license
+│
+└── [future]
+    ├── package.json
+    ├── tsconfig.json
+    ├── tests/
+    └── .github/
+        └── workflows/
 ```
 
-3. Open `index.html` directly in the browser (works if the page only relies on included JS/CSS and not on server-only APIs).
+The current project intentionally keeps the repository minimal.
 
-4. **git repo clone:**
+---
 
-```
-git clone https://github.com/md-abu-kayser/advanced-typescript-mastery.git
-```
+# Main Source File
 
-## Running the Example
+## `100-advanced-ts-problem.ts`
 
-The repository is intentionally minimal. The file `100-advanced-ts-problem.ts` contains both the implementation and a small example harness. Running it with `ts-node` prints sample output to the console. Compiling with `tsc` and opening `index.html` shows the result in a browser context.
+This is the primary implementation file.
 
-**Example expected behavior--> summary:**
+It contains the focused TypeScript exercise together with the supporting implementation and example usage.
 
-- The TypeScript file demonstrates advanced typing patterns and a complete solution for the included problem.
-- Example input and expected output are included in comments and in the file's sample runner function.
+When reviewing this file, pay attention to:
 
-**Note:** Because this repository doesn't include a `package.json` by default, the Quick Start uses `npx` so reviewers can run things without modifying the repo.
-
-## How to Read the Code
-
-**When reviewing `100-advanced-ts-problem.ts`, look for the following:**
-
-- Top-level type contracts describing function inputs and outputs.
-- Small, well-named helper functions with single responsibilities.
-- Inline comments that explain non-obvious algorithmic choices.
-- A testable, decoupled `solve` (or equivalent) function that can be imported by a test harness.
-
-If you would like, I can split the file into modules (e.g., `src/` + `lib/`) and add a `package.json` with scripts for build/test in a follow-up.
-
-## Recommended Development Workflow
-
-- **Add a `package.json` and dependencies:**
-
-```powershell
-npm init -y
-npm i -D typescript ts-node @types/node
+```text
+Type Contracts
+     ↓
+Data Modeling
+     ↓
+Function Signatures
+     ↓
+Implementation
+     ↓
+Example Cases
 ```
 
-- Add a `tsconfig.json` (basic one can be created with `npx tsc --init`).
-- **Add npm scripts to `package.json`:**
+The source is intended to be readable enough for technical review without requiring a large framework or application layer.
 
-```json
-{
-  "scripts": {
-    "build": "tsc",
-    "start": "ts-node 100-advanced-ts-problem.ts",
-    "serve": "http-server -p 8080"
-  }
+---
+
+# Browser Runner
+
+## `index.html`
+
+The repository includes a minimal HTML entry point that can be used to preview the compiled output in a browser environment.
+
+Conceptually:
+
+```text
+TypeScript Source
+       ↓
+Compilation
+       ↓
+JavaScript Output
+       ↓
+index.html
+       ↓
+Browser
+```
+
+This provides a convenient way for reviewers to inspect behavior without needing to understand the entire project architecture first.
+
+---
+
+# Live Demo
+
+The repository includes a GitHub Pages deployment:
+
+**Live Demo:**
+
+https://md-abu-kayser.github.io/advanced-typescript-mastery/
+
+The demo is intended primarily for quick inspection and presentation.
+
+For source-level review, the TypeScript implementation remains the canonical reference.
+
+---
+
+# Technology Stack
+
+| Technology   | Purpose                                |
+| ------------ | -------------------------------------- |
+| TypeScript   | Static typing and implementation       |
+| JavaScript   | Runtime target                         |
+| HTML5        | Browser runner                         |
+| CSS3         | Browser presentation                   |
+| Tailwind CSS | Utility-first styling where applicable |
+| PostCSS      | CSS processing                         |
+| daisyUI      | UI component styling where applicable  |
+| Node.js      | Local development/runtime tooling      |
+| Express      | Runtime/web ecosystem reference        |
+| GitHub Pages | Live demo hosting                      |
+
+The source README identifies TypeScript, JavaScript, HTML/CSS, Tailwind CSS, PostCSS, daisyUI, Node.js, Express, and supporting frontend tooling within the repository ecosystem.
+
+> Keep this table synchronized with the actual dependencies in `package.json` as the repository evolves.
+
+---
+
+# TypeScript Philosophy
+
+The project is built around a few practical TypeScript principles.
+
+## Prefer Explicit Contracts
+
+```ts
+function solve(input: Input): Output {
+  // implementation
 }
 ```
 
-**These scripts standardize common tasks and make the repo friendlier to evaluators.**
+A function signature should communicate:
 
-## Testing and Validation
+- What goes in
+- What comes out
+- What the caller can rely on
 
-This repository is small and doesn't include a test runner by default. To add tests quickly, use Jest or Vitest.
+---
 
-**Example installation (Vitest):**
+## Model Invalid States Carefully
 
-```powershell
-npm i -D vitest @types/jest
-npx vitest init
+Rather than allowing every possible value:
+
+```ts
+type Status = string;
 ```
 
-Write a few unit tests that import the primary exported `solve` function from `100-advanced-ts-problem.ts` and validate the example cases.
+Prefer a constrained model where the domain requires one:
 
-### Contributing
+```ts
+type Status = "pending" | "processing" | "completed" | "failed";
+```
 
-**Contributions are welcome. Suggested steps for a clean contribution:**
-
-1. Fork the repository.
-2. Create a topic branch for your change.
-3. Add tests for any new behavior.
-4. Ensure linting and type checks pass.
-5. Open a pull request describing your change.
-
-For small portfolio edits (formatting, README improvements), a direct PR is fine.
-
-### Suggested Follow-ups (for an even stronger presentation)
-
-- Add `package.json` with `build`, `start`, and `test` scripts.
-- Add `tsconfig.json` and a basic ESLint/Prettier setup.
-- Add a simple GitHub Actions workflow that runs `npm ci andand npm test` on push.
-- Add a small demo GIF or screenshot showing expected output.
-
-I can implement any of these follow-ups on request.
-
-### License
-
-- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
-- The license may be modified or replaced for client or proprietary projects if required.
+This communicates intent directly through the type system.
 
 ---
 
-### Contact & Maintainer
+## Keep Abstractions Useful
 
-**Md Abu Kayser**  
-Frontend / Full-Stack Web Developer
+Advanced TypeScript should not mean unnecessary complexity.
 
-- **Project:** Advanced TypeScript Mastery
-- **GitHub:** https://github.com/md-abu-kayser
-- **Email:** abu.kayser.official@gmail.com
+A useful rule for this repository is:
 
-For inquiries related to collaboration, interviews, or client work, feel free to reach out via email or GitHub.
+```text
+Complexity should solve a problem,
+not demonstrate that complexity is possible.
+```
+
+---
+
+# Code Review Checklist
+
+When reviewing a solution in this repository, evaluate:
+
+```text
+[ ] Are input types explicit?
+[ ] Are output types clear?
+[ ] Are assumptions visible?
+[ ] Are edge cases considered?
+[ ] Are names intention-revealing?
+[ ] Is the implementation easy to follow?
+[ ] Is unnecessary abstraction avoided?
+[ ] Does TypeScript prevent common misuse?
+[ ] Is the algorithm appropriate for the problem?
+[ ] Can the core logic be tested independently?
+```
 
 ---
 
-**Thank you for reviewing this project!**  
-It is designed to be **clean, well-structured**, and **easy to evaluate** - ideal for technical interviews, portfolio reviews, and professional demonstrations.
+# Getting Started
+
+## Prerequisites
+
+The repository can be explored with a standard TypeScript/Node.js development environment.
+
+Recommended:
+
+- Node.js LTS
+- npm
+- TypeScript
+- Git
+
+For browser preview:
+
+- A modern browser
+- A local static HTTP server when required
 
 ---
+
+# Clone the Repository
+
+```bash
+git clone https://github.com/md-abu-kayser/advanced-typescript-mastery.git
+```
+
+Then:
+
+```bash
+cd advanced-typescript-mastery
+```
+
+---
+
+# Quick Start
+
+Because the repository is intentionally minimal, there are multiple ways to inspect the implementation.
+
+## Option 1 — Run with `ts-node`
+
+Install the required tools:
+
+```bash
+npm install -g typescript ts-node
+```
+
+Run:
+
+```bash
+npx ts-node 100-advanced-ts-problem.ts
+```
+
+This executes the TypeScript source directly.
+
+---
+
+# Option 2 — Compile with TypeScript
+
+Initialize a TypeScript configuration when needed:
+
+```bash
+npx tsc --init
+```
+
+Compile the problem:
+
+```bash
+npx tsc 100-advanced-ts-problem.ts --outDir dist
+```
+
+This produces JavaScript output suitable for runtime execution.
+
+---
+
+# Option 3 — Serve the Browser Preview
+
+For static preview, use a lightweight local server.
+
+Example:
+
+```bash
+npx http-server -p 8080
+```
+
+Then open:
+
+```text
+http://localhost:8080
+```
+
+Use the compiled output expected by `index.html`.
+
+---
+
+# Development Workflow
+
+A disciplined workflow is recommended even for a small repository.
+
+```text
+Understand Problem
+       ↓
+Define Domain Types
+       ↓
+Design Function Contract
+       ↓
+Implement Smallest Correct Solution
+       ↓
+Check Edge Cases
+       ↓
+Compile
+       ↓
+Run Example
+       ↓
+Review Types
+       ↓
+Refactor
+```
+
+---
+
+# Recommended Project Evolution
+
+If this repository grows beyond the current focused implementation, introduce standard project tooling.
+
+Recommended structure:
+
+```text
+src/
+├── problems/
+├── types/
+├── solutions/
+└── utils/
+
+tests/
+├── unit/
+└── integration/
+```
+
+Then add:
+
+```text
+package.json
+tsconfig.json
+eslint.config.js
+prettier.config.js
+vitest.config.ts
+.github/
+└── workflows/
+    └── ci.yml
+```
+
+This progression preserves the current simplicity while providing a clear path toward a larger learning/code-quality repository.
+
+---
+
+# Testing
+
+The current repository is intentionally lightweight and does not ship with a complete test runner by default.
+
+That does not mean the core logic should remain untestable.
+
+The preferred design is to keep the primary solution independently callable:
+
+```ts
+export function solve(input: Input): Output {
+  // implementation
+}
+```
+
+This makes it straightforward to introduce automated tests later.
+
+---
+
+# Recommended Test Strategy
+
+A future implementation can use Vitest or Jest.
+
+Example:
+
+```ts
+import { describe, expect, it } from "vitest";
+import { solve } from "../src/problems/100-advanced-ts-problem";
+
+describe("advanced TypeScript problem", () => {
+  it("handles the primary example", () => {
+    expect(solve(/* input */)).toEqual(/* expected output */);
+  });
+
+  it("handles edge cases", () => {
+    expect(solve(/* edge case */)).toEqual(/* expected output */);
+  });
+});
+```
+
+The important principle is:
+
+```text
+Arrange
+   ↓
+Act
+   ↓
+Assert
+```
+
+---
+
+# Type Checking
+
+A strong TypeScript repository should treat type checking as a separate validation step.
+
+Future standard command:
+
+```bash
+npm run typecheck
+```
+
+which should execute:
+
+```bash
+tsc --noEmit
+```
+
+This verifies the project without generating output files.
+
+---
+
+# Recommended Quality Pipeline
+
+For a more mature repository:
+
+```text
+npm run lint
+      ↓
+npm run typecheck
+      ↓
+npm run test
+      ↓
+npm run build
+```
+
+Only after these checks pass should a change be considered ready for merge.
+
+---
+
+# Production-Minded Code Standards
+
+The phrase “production-minded” in this repository refers primarily to engineering discipline.
+
+It means:
+
+### Predictable
+
+Functions behave consistently according to their contracts.
+
+### Explicit
+
+Important assumptions are visible in the code.
+
+### Maintainable
+
+The implementation can be changed without unnecessary coupling.
+
+### Testable
+
+Core logic can be invoked independently.
+
+### Reviewable
+
+Another engineer can understand the solution without reverse-engineering the entire application.
+
+### Practical
+
+Advanced language features are used when they provide meaningful value.
+
+---
+
+# Common Anti-Patterns to Avoid
+
+## Overusing Generics
+
+Do not introduce deeply nested generic abstractions when a simple type would communicate the intent better.
+
+## Clever but Unreadable Types
+
+A type that is technically impressive but difficult to understand is often a maintenance problem.
+
+## Hidden Runtime Assumptions
+
+TypeScript does not automatically validate external runtime data.
+
+Remember:
+
+```text
+TypeScript
+    ≠
+Runtime Validation
+```
+
+When data crosses an external boundary, runtime validation may still be necessary.
+
+## Large Functions
+
+Keep the primary algorithm readable and move unrelated responsibilities into focused helpers.
+
+## Premature Frameworks
+
+A small problem does not require a large application framework.
+
+---
+
+# Learning Path
+
+This repository can evolve into a structured TypeScript learning path.
+
+```text
+TypeScript Fundamentals
+        ↓
+Type Modeling
+        ↓
+Functions & Generics
+        ↓
+Unions & Intersections
+        ↓
+Utility Types
+        ↓
+Conditional Types
+        ↓
+Mapped Types
+        ↓
+Template Literal Types
+        ↓
+Advanced Inference
+        ↓
+Type-Safe Architecture
+        ↓
+Production TypeScript
+```
+
+---
+
+# Future Repository Expansion
+
+The current project can grow from one focused challenge into a broader TypeScript mastery repository.
+
+Possible future structure:
+
+```text
+advanced-typescript-mastery/
+│
+├── 01-fundamentals/
+├── 02-functions/
+├── 03-generics/
+├── 04-unions/
+├── 05-intersections/
+├── 06-utility-types/
+├── 07-conditional-types/
+├── 08-mapped-types/
+├── 09-template-literal-types/
+├── 10-type-inference/
+├── 11-type-level-programming/
+├── 12-production-patterns/
+│
+├── tests/
+├── docs/
+└── README.md
+```
+
+This would transform the repository from a focused demonstration into a comprehensive TypeScript practice system.
+
+---
+
+# Roadmap
+
+```text
+[x] Focused advanced TypeScript problem
+[x] Minimal browser runner
+[x] GitHub Pages demo
+[x] Professional project documentation
+
+[ ] Add package.json
+[ ] Add dedicated tsconfig.json
+[ ] Add automated type checking
+[ ] Add ESLint
+[ ] Add Prettier
+[ ] Add Vitest/Jest
+[ ] Add unit test suite
+[ ] Add GitHub Actions CI
+[ ] Expand advanced TypeScript problem collection
+[ ] Add structured learning modules
+[ ] Add complexity analysis
+[ ] Add multiple solution strategies
+[ ] Add benchmark examples
+[ ] Add contributor documentation
+```
+
+---
+
+# CI/CD Direction
+
+A future GitHub Actions workflow can automatically validate every pull request.
+
+```text
+Pull Request
+     ↓
+Install Dependencies
+     ↓
+Lint
+     ↓
+Type Check
+     ↓
+Test
+     ↓
+Build
+     ↓
+Deploy Preview
+```
+
+Example future workflow:
+
+```yaml
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+```
+
+Add this only after the repository has the corresponding scripts and dependencies.
+
+---
+
+# Open Source Contribution Workflow
+
+Contributions should follow a predictable process.
+
+## 1. Fork
+
+Fork the repository.
+
+## 2. Clone
+
+```bash
+git clone https://github.com/md-abu-kayser/advanced-typescript-mastery.git
+cd advanced-typescript-mastery
+```
+
+## 3. Create a Branch
+
+```bash
+git checkout -b feature/add-typescript-problem
+```
+
+## 4. Implement
+
+Follow existing naming, typing, and documentation conventions.
+
+## 5. Validate
+
+```bash
+npm run lint
+npm run typecheck
+npm test
+npm run build
+```
+
+Use only commands that are actually configured in the project.
+
+## 6. Commit
+
+Use Conventional Commit-style messages:
+
+```bash
+git commit -m "feat(types): add advanced generic challenge"
+```
+
+## 7. Push
+
+```bash
+git push origin feature/add-typescript-problem
+```
+
+## 8. Pull Request
+
+Describe:
+
+- What changed
+- Why it changed
+- How it was tested
+- Any architectural considerations
+
+---
+
+# Commit Convention
+
+Recommended commit types:
+
+| Prefix     | Purpose                  |
+| ---------- | ------------------------ |
+| `feat`     | New functionality        |
+| `fix`      | Bug fix                  |
+| `refactor` | Internal restructuring   |
+| `docs`     | Documentation            |
+| `test`     | Tests                    |
+| `chore`    | Tooling or maintenance   |
+| `perf`     | Performance              |
+| `build`    | Build/dependency changes |
+| `ci`       | CI/CD changes            |
+
+Examples:
+
+```text
+feat(types): add conditional type challenge
+fix(solver): handle empty input
+refactor(types): simplify generic constraint
+docs(readme): improve architecture documentation
+test(solver): add edge-case coverage
+chore(config): add strict TypeScript configuration
+ci(github): add continuous integration workflow
+```
+
+---
+
+# Documentation Principles
+
+This README follows several documentation principles that should remain true as the project grows.
+
+### Explain the Why
+
+Do not document only what the code does.
+
+### Keep Commands Reproducible
+
+Every command in the README should correspond to the actual project setup.
+
+### Avoid Unsupported Claims
+
+Do not advertise production capabilities that are not implemented.
+
+### Keep Examples Current
+
+Examples should match the current source code.
+
+### Update Documentation With Code
+
+Architecture changes should be reflected in the README.
+
+---
+
+# Current Scope vs. Future Scope
+
+| Area               | Current                         | Future Direction      |
+| ------------------ | ------------------------------- | --------------------- |
+| TypeScript problem | ✅                              | Expand collection     |
+| Browser runner     | ✅                              | Improve presentation  |
+| GitHub Pages       | ✅                              | Automated deployment  |
+| Package management | Minimal                         | Standard npm workflow |
+| Testing            | Not bundled as a complete suite | Vitest/Jest           |
+| CI/CD              | Not yet established             | GitHub Actions        |
+| ESLint             | Documentation/tooling direction | Full repository setup |
+| Prettier           | Documentation/tooling direction | Full repository setup |
+| Learning modules   | Focused example                 | Structured curriculum |
+
+---
+
+# Who Is This For?
+
+## Developers Learning TypeScript
+
+Use the repository to study advanced type modeling and practical problem-solving.
+
+## Interview Preparation
+
+Use the focused implementation to practice explaining:
+
+- Why a type was designed a certain way
+- Why a particular algorithm was chosen
+- What edge cases exist
+- How the implementation could evolve
+
+## Technical Review
+
+The small scope makes the repository convenient for code-review exercises.
+
+## Portfolio Presentation
+
+The project demonstrates that TypeScript is being used intentionally rather than only as a syntax layer.
+
+---
+
+# Interview Discussion Points
+
+A reviewer can use this repository to explore questions such as:
+
+```text
+Why was this type chosen?
+        ↓
+Could the API be made safer?
+        ↓
+What invalid states are possible?
+        ↓
+What happens with edge cases?
+        ↓
+What is the algorithmic complexity?
+        ↓
+How would you test it?
+        ↓
+How would you scale the repository?
+```
+
+That makes the project suitable for technical discussion rather than simply visual demonstration.
+
+---
+
+# Project Philosophy
+
+This repository follows one central idea:
+
+> **Advanced TypeScript should improve software design, not merely increase type complexity.**
+
+The best type system is not the one with the most sophisticated syntax.
+
+It is the one that makes the intended API:
+
+```text
+Clear
+   +
+Predictable
+   +
+Safe
+   +
+Maintainable
+```
+
+---
+
+# Final Engineering Perspective
+
+The current repository is intentionally small.
+
+That is a feature, not a limitation.
+
+A compact codebase makes it possible to inspect the important parts quickly:
+
+```text
+Types
+  ↓
+Contracts
+  ↓
+Algorithm
+  ↓
+Implementation
+  ↓
+Validation
+```
+
+As the repository grows, the same principles can be preserved while introducing stronger tooling, automated testing, CI/CD, modular organization, and a broader collection of advanced TypeScript exercises.
+
+---
+
+# Resources
+
+## TypeScript
+
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+## JavaScript
+
+- [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [ECMAScript Specification](https://tc39.es/ecma262/)
+
+## Runtime & Tooling
+
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+
+## Frontend
+
+- [HTML — MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Tailwind CSS](https://tailwindcss.com/docs/)
+- [daisyUI](https://daisyui.com/)
+
+---
+
+# License
+
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](./LICENSE) file for complete details.
+
+---
+
+# Maintainer
+
+<p align="center">
+  <strong>Md Abu Kayser</strong>
+</p>
+
+<p align="center">
+  Frontend / Full-Stack Web Developer
+</p>
+
+<p align="center">
+  <a href="https://github.com/md-abu-kayser">
+    GitHub
+  </a>
+  •
+  <a href="mailto:abu.kayser.official@gmail.com">
+    Email
+  </a>
+</p>
+
+For collaboration, technical discussion, portfolio review, or professional opportunities, please use GitHub or email.
+
+---
+
+<p align="center">
+  <a href="#advanced-typescript-mastery">⬆ Back to top</a>
+</p>
+
+<p align="center">
+  <strong>Learn the type system. Solve the problem. Design for correctness.</strong>
+</p>
+
+<p align="center">
+  Made with ❤️ and ☕ by <strong>Md Abu Kayser</strong>
+</p>
