@@ -12,17 +12,41 @@
 
 <p align="center">
   <a href="https://github.com/md-abu-kayser/advanced-typescript-mastery">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+    <img
+      src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github"
+      alt="GitHub Repository"
+    />
   </a>
+
   <a href="https://md-abu-kayser.github.io/advanced-typescript-mastery/">
-    <img src="https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2EA44F?style=for-the-badge&logo=github" alt="Live Demo" />
+    <img
+      src="https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2EA44F?style=for-the-badge&logo=github"
+      alt="Live Demo"
+    />
   </a>
+
   <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License" />
+    <img
+      src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge"
+      alt="MIT License"
+    />
   </a>
-  <img src="https://img.shields.io/badge/TypeScript-Advanced-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="Advanced TypeScript" />
-  <img src="https://img.shields.io/badge/Type%20Safety-First-3178C6?style=for-the-badge" alt="Type Safety First" />
+
+  <a href="https://www.typescriptlang.org/">
+    <img
+      src="https://img.shields.io/badge/TypeScript-Advanced-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
+      alt="Advanced TypeScript"
+    />
+  </a>
+
+  <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html">
+    <img
+      src="https://img.shields.io/badge/Type%20Safety-First-3178C6?style=for-the-badge"
+      alt="Type Safety First"
+    />
+  </a>
 </p>
+
 
 <p align="center">
   <a href="#overview">Overview</a> •
