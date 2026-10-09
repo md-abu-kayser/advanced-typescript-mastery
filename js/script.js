@@ -588,4 +588,3 @@ document.addEventListener("click", function (event) {
 
 showExample(1);
 
-/* ALL JAVASCRIPT CODE ENDS */
